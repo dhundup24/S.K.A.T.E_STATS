@@ -22,13 +22,13 @@ export default function App() {
                     <Text className="text-3xl text-white font-bold text-center">Climb the ranks and be the best in{' '}
                     <Text className= "text-secondary-200">S.K.A.T.E STATS</Text>
                     </Text>
-
-                    <CustomButton
-                        title="Continue with Email"
-                        handlePress={() => {}}
-                        containerStyles="w-full mt-7"
-                    />
                 </View>
+
+                <CustomButton
+                    title="Continue with Email"
+                    handlePress={() => {}}
+                    containerStyles="w-full mt-7"
+                />
             </View>
         </ScrollView>
     </SafeAreaView>
