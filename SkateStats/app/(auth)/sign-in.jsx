@@ -8,7 +8,7 @@ const SignIn = () => {
     <SafeAreaView className="bg-primary h-full">
       <ScrollView>
         <View className="w-full justify-center h-full px-4 my-6">
-          <Image source= {images.skateStatsLogo} resizeMode='contain' className="w-[115px] h-[35]px"/>
+          <Image source= {images.skateStatsLogo} resizeMode='contain' className="w-[200px] h-[205px]"/>
           <Text className="text-2xl text-white text-semibold mt-10 font-psemibold"> Log into S.K.A.T.E STATS here!</Text>
         </View>
       </ScrollView>
